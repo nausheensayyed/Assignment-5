@@ -1,7 +1,7 @@
-  body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(255, 255, 255);
+ body, h1, h2 {
     margin: 0;
+    color: rgb(0, 0, 0);
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
   }
   
   main {
@@ -17,11 +17,6 @@
     text-align: center;
   }
   
-  h1, h4, h2 {
-    margin: 0;
-    color: rgb(0, 0, 0);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
   
    header img {
     height: 50px;
@@ -63,7 +58,7 @@
     display: inline;
     background-color: rgb(255, 255, 255);
     padding: 5px 10px 5px 10px;
-    border-radius: 5px;
+    font-weight: 600;
   }
   
   #menu li a {
